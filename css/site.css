@@ -20,3 +20,8 @@ body, html, .flex-container {
 input{
     color: #333333;
 }
+
+.blanklink:link, .blanklink:visited, .blanklink:hover {
+    color:white;
+    font-style: normal;
+}
