@@ -25,3 +25,7 @@ input{
     color:white;
     font-style: normal;
 }
+
+a, a:link, a:visited, a:active, a:hover {
+    color: white;
+}
