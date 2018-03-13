@@ -4,26 +4,30 @@ body, html, .flex-container {
     font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial;
     background: #333333;
     color: #e2e2e2;
-}
-
-.container{
-    margin-top: 100px;
-}
-
-.center{text-align: center;}
-
-.flaghead{    
     font-size: 16pt;
     font-weight: lighter;
 }
 
-input{
+.center{text-align: center;}
+
+.logo-img {
+    max-height: 200px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+#mc-embedded-subscribe-form {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+input {
     color: #333333;
 }
 
 .blanklink:link, .blanklink:visited, .blanklink:hover {
     color:white;
-    font-style: normal;
+    text-decoration: underline;
 }
 
 a, a:link, a:visited, a:active, a:hover {
